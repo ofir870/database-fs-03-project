@@ -1,0 +1,28 @@
+users: 
+
+phone number: number (req)
+password: text	 (req)
+userId: number	 (req)
+chatsLikes: array (boolean)
+eventsLikes: array (boolean)
+feedLikes: array (boolean) 
+
+
+feed:
+
+title: String (req)
+discription: String(req)
+dateAndTimeOfFeed: Date
+liked: boolean(false)
+
+
+
+
+
+
+
+
+
+
+
+

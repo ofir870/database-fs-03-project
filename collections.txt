@@ -13,7 +13,9 @@ feed:
 title: String (req)
 discription: String(req)
 dateAndTimeOfFeed: Date
-liked: boolean(false)
+liked: boolean(false)	
+
+
 
 
 

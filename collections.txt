@@ -1,30 +1,57 @@
 users: 
 
-phone number: number (req)
+phone-number: number (req)
 password: text	 (req)
-userId: number	 (req)
-chatsLikes: array (boolean)
-eventsLikes: array (boolean)
-feedLikes: array (boolean) 
+user-id: number	 (req)
+chats-likes: array (numbers)
+events-likes: array (numbers)
+feed-likes: array (numbers) 
+is-new-chat: array (numbers)
+is-new-events:array(numbers)
+is-new-shopping: array(numbers)
 
+{timeStamp}
+
+users-meta-data:
+
+userName: String
+chat-messages-history:array(String)
+is-blocked: boolean(false)
+isActive: boolean(false)
 
 feed:
 
 title: String (req)
-discription: String(req)
-dateAndTimeOfFeed: Date
-liked: boolean(false)	
+discription: String (req)
+liked: boolean(false) (req)
+likes-count: 0 (req)
+message: String
+img: String
+link: String (req)
 
+{timeStamp} - will get create-date and last-update-date 
 
+chats:
 
+title: String(req)
+message:String(req)
+liked: boolean(false) (req)
+likes-count: 0 (req)
+chat-scope: array[City, District , Street, Building]
 
+{timeStamp} - will get create-date and last-update-date 
 
+events:
 
+title: String (req)
+discription: String (req)
+liked: boolean(false) (req)
+likes-count: 0 (req)
+message: String
+img: String
+link: String (req)
 
-
-
-
-
+{timeStamp} - will get create-date and last-update-date 
 
 
 
